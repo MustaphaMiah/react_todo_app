@@ -23,8 +23,6 @@ class App extends React.Component {
         }
         return todo;
       });
-      console.log(prevState.todos);
-      console.log(updatedTodos);
       return {
         todos: updatedTodos,
       };
